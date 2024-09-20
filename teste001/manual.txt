@@ -1,0 +1,24 @@
+20/09/2024
+
+Teste de font-size: clamp();
+
+Essa ferramenta faz resposividade em textos, seja <p> ou <h1>
+de forma geral, o clamp funciona com 3 comandos.
+
+font-size: clamp(10px, 3vw, 20px);
+
+O primeiro valor (10px) significa o tamanho mínimo da fonte.
+O segundo valor (3vw) significa o tamanho normal da fonte.
+O terceiro valor (20px) significa o valor máximo da fonte.
+
+Ou seja...
+
+clamp(10px, 3vw, 20px)  ==  clamp(min, val, max)
+
+Usamos o clamp para deixar o site mais responsivo, facilitando
+a legibilidade dos outros dispositivos.
+
+SEJA RESPONSIVO !!!
+
+
+OBS: "vw" é uma de medida de largura que significa Viewport Width (Largura da Tela)
