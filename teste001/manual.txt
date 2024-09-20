@@ -21,4 +21,4 @@ a legibilidade dos outros dispositivos.
 SEJA RESPONSIVO !!!
 
 
-OBS: "vw" é uma de medida de largura que significa Viewport Width (Largura da Tela)
+OBS: "vw" é uma medida de largura que significa Viewport Width (Largura da Tela)
