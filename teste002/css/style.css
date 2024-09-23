@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+:root {
+    --m: 4rem;
+    
+    --red: #ff6565;
+    --pink: #ff64f9;
+    --purple: #6bcfff;
+    --blue: #4d8aff;
+    --green: #5bff89;
+    --yellow: #ffee55;
+    --orange: #ff6d1b;
+
+}
+
+body {
+    background-color: #141516;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: calc(0.08 * var(--m)) solid transparent;
+    position: relative;
+    color: #f3f3f3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: var(--m);
+    border-radius: calc(0.7 * var(--m));
+    padding: calc(0.5 * var(--m)) calc(1 * var(--m));
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient(#121213, #121213),
+                linear-gradient(#121213 50%, #12121399 80%, #12121300), 
+                linear-gradient(90deg, var(--orange), var(--yellow), var(--blue), var(--purple), var(--pink), var(--red));
+    background-origin: border-box;
+    background-clip: padding-box, border-box, border-box;
+    background-size: 200%;
+    animation: animate 2s infinite linear;
+}
