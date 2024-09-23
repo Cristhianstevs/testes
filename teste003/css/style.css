@@ -39,11 +39,10 @@ p {
 }
 .positivo {
     background-color: #008000;
-    transition: 1s;
 }
 .negativo {
     background-color: #e21616;
-    transition: 1s;
+    transition: .5s;
 }
 .negativo::after {
     content: "Não";
