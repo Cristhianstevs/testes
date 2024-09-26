@@ -1,7 +1,6 @@
 # Testes Cristhianstevs
  Testes de códigos novos que aprendo ou ideias que tenho.
 # Testes CSS
-<br>
 <a href="css/botao/index.html">Botão - 001</a>
 <br>
 <a href="css/clamp/index.html">Função - Clamp()</a>
@@ -11,4 +10,7 @@
 
 # Testes HTML
 # Testes JavaScript
+<a href="js/isNaN/isNaN.js">Função - isNaN</a>
+<br>
+
 # Testes Python
