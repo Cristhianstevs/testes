@@ -14,11 +14,11 @@ console.log('----------------')
 console.log(' TESTE DE isNaN ')
 console.log('----------------')
 
-console.log(isNaN(123));        // false, 123 é um número
-console.log(isNaN("123"));      // false, "123" é convertido para o número 123 que se torna um número
-console.log(isNaN("abc"));      // true, "abc" não pode ser convertido para um número e não é um número
-console.log(isNaN(NaN));        // true, o valor já é NaN (Not-a-Number)
-console.log(isNaN(undefined));  // true, undefined não é um número
+console.log(isNaN(123));        // false, 123 é um número.
+console.log(isNaN("123"));      // false, "123" é convertido para o número 123 que se torna um número.
+console.log(isNaN("abc"));      // true, "abc" não pode ser convertido para um número e não é um número.
+console.log(isNaN(NaN));        // true, o valor já é NaN (Not-a-Number).
+console.log(isNaN(undefined));  // true, undefined não é um número.
 
 /*
 
@@ -33,8 +33,8 @@ console.log('-----------------------')
 console.log(' TESTE DE Number.isNaN ')
 console.log('-----------------------')
 
-console.log(Number.isNaN(123));         // false, 123 é um número
-console.log(Number.isNaN("123"));       // false, "123" passa a ser um número com a conversão
-console.log(Number.isNaN("abc"));       // false, "abc" passa a ser um valor
-console.log(Number.isNaN(NaN));         // true, mesmo forçando NaN sempre vai ser Not-a-Number
-console.log(Number.isNaN(undefined));   // false, undefined passa a ser um valor
+console.log(Number.isNaN(123));         // false, 123 é um número.
+console.log(Number.isNaN("123"));       // false, "123" passa a ser um número com a conversão.
+console.log(Number.isNaN("abc"));       // false, "abc" passa a ser um valor.
+console.log(Number.isNaN(NaN));         // true, mesmo forçando NaN sempre vai ser Not-a-Number.
+console.log(Number.isNaN(undefined));   // false, undefined passa a ser um valor.

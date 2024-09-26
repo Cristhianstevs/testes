@@ -10,7 +10,8 @@
 
 # Testes HTML
 # Testes JavaScript
-<a href="js/isNaN/isNaN.js">Função - isNaN</a>
+<a href="js/varLetConst/varLetConst.js"> Var, Let e Const</a>
 <br>
+<a href="js/isNaN/isNaN.js">Função - isNaN</a>
 
 # Testes Python
